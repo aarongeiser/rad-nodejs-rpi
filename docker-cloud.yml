@@ -1,0 +1,4 @@
+web:
+  image: frog/rad-nodejs-rpi
+  ports:
+    - "3000:3000"

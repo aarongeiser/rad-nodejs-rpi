@@ -1,0 +1,22 @@
+{
+  "name": "rad-nodejs-rpi",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Starting point for a containerized Node.js application on Raspberry Pi.",
+  "author": "Aaron Geiser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frog/rad-nodejs-rpi.git"
+  },
+  "homepage": "https://github.com/frog/rad-nodejs-rpi#readme",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "rpio": "latest",
+    "mcp-spi-adc": "0.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}
